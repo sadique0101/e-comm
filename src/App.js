@@ -8,12 +8,10 @@ import Header from './Component/Footer/Header';
 function App() {
   return (
     <>
-<div className='bg-pink-200' >
+<div className='' >
   <Header />
 <HomePage />
-
   <Footer />
-
 </div>
     </>
   );
