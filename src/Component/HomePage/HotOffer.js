@@ -2,6 +2,7 @@ import React from 'react';
 import { FaFire } from 'react-icons/fa';
 import bag10 from '../../assets/bags/15/1.jpg';
 function HotOffer() {
+   
   return (
     <div className="bg-white w-full box-border py-6 rounded-lg shadow-lg p-6 flex flex-col items-start text-center">
       {/* Hot Offer Tagline */}

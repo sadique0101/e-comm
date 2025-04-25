@@ -5,11 +5,13 @@ import Trending from './Trending'
 import Latest from './Latest'
 import NewArrival from './NewArrival'
 import CompanyDescription from './CompanyDescription'
+import TopSeller from './TopSeller'
 const HomePage = () => {
   return (
     <div>
       <Herosection />
-      <OfferSection />
+      {/* <OfferSection /> */}
+      <TopSeller />
       <Trending />
       <Latest />
       <CompanyDescription />
