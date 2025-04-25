@@ -1,19 +1,19 @@
 
 import './App.css';
-import TrendingCards from './Component/Cards/TrendingCards';
-import SpecialSlider from './Component/SliderComponent/SpecialSlider';
-import Footer from './Component/Footer/Footer';
 import HomePage from './Component/HomePage/HomePage';
-import Header from './Component/Footer/Header';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import DetailPage from './Component/DetailPage/index';
+import Checkout from './Component/Checkout';
+
 function App() {
   return (
-    <>
-<div className='' >
-  <Header />
-<HomePage />
-  <Footer />
-</div>
-    </>
+    <BrowserRouter>
+<Routes>
+<Route index element={<HomePage />} />
+<Route path="/:userId" element={<DetailPage />} />
+<Route path="/:userId/checkout" element={<Checkout />} />
+</Routes>
+    </BrowserRouter>
   );
 }
 

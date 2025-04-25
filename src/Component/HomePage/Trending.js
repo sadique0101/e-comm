@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Image1 from "../../assets/bags/7/IMG_3113.jpg";
 import Image2 from "../../assets/bags/14/IMG_3252.jpg";
 import Image3 from "../../assets/bags/20/IMG_3327.jpg";
-import Image4 from "../../assets/bags/5/IMG_3048.jpg";
+import Image4 from "../../assets/bags/5/1.jpg";
 import DesignCard from '../Cards/DesignCard';
 const Trending = () => {
   const settings = {
@@ -171,7 +171,7 @@ const Trending = () => {
   
   
   return (
-    <div className='w-full bg-white my-10 px-4 md:px-20 py-10 flex flex-col'>
+    <div className='w-full bg-white px-4 md:px-20 flex flex-col'>
     <DesignCard data={data} />
     </div>
   );
