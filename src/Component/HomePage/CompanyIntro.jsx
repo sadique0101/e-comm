@@ -48,7 +48,7 @@ function CompanyIntro() {
           <img
             src={bag7} // Replace with actual image URL
             alt="Art 3"
-            className=" w-[170px] md:w-[200px] h-auto translate-y-40 -translate-x-52 md:-translate-x-16 rounded shadow-lg"
+            className=" w-[158px] md:w-[200px] h-auto translate-y-40 -translate-x-[14.5rem] md:-translate-x-16 rounded shadow-lg"
           />
         </div>
       </div>

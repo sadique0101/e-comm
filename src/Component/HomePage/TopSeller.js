@@ -88,14 +88,14 @@ const settings = {
     <div className="py-10 px-4 max-w-[1200px] mx-auto">
       {/* Header Section */}
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-xl font-bold"> Our Custom Bag Collection</h2>
-        <a href="/all" className=" text-sm flex items-center gap-1">
-          View All <FaAngleRight className='text-[#261FB3]' />
+        <h2 className="text-xl font-bold max-md:text-lg"> Our Custom Bag Collection</h2>
+        <a href="/all" className=" text-sm   flex items-center gap-1">
+          View_All <FaAngleRight className='text-[#261FB3]' />
         </a>
       </div>
 
       {/* Brands Section */}
-      <div className="w-full overflow-hidden">
+      <div className="w-full overflow-hidden ">
         <Slider {...settings}>
         {customBagBrands.map((brand, index) => (
             <div>
