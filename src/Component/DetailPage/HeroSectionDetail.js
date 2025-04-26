@@ -11,13 +11,13 @@ function HeroSectionDetail() {
   return (
     <div className="flex flex-col md:flex-row gap-8 p-6">
       {/* Left Section: Product Images */}
-      <div className="flex flex-col w-full md:w-1/2">
+      <div className="flex flex-col gap-3 w-full md:w-1/2">
         {/* Main Product Image */}
-        <div className="bg-gray-100 rounded-lg p-4 flex items-center justify-center mb-4">
+        <div className=" h-[400px] rounded-lg p-4 flex items-center justify-center mb-4">
           <img
             src={image} // Replace with actual product image URL
             alt="Product"
-            className="w-full h-auto object-contain"
+            className="w-full h-full object-contain"
           />
         </div>
 

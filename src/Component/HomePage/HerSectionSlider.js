@@ -26,7 +26,7 @@ function HerSectionSlider() {
       <div className='w-[65%] rounded-lg bg-white shadow-lg overflow-hidden'>
       <div className='w-full h-full overflow-hidden'>
       <Slider {...settings}>
-        {bagProducts.map((product, index) =>{
+        {bagProducts.slice(0,5).map((product, index) =>{
             return (  
                 <div className='h-full w-full' key={index}>
         <div className="flex flex-row px-5 py-10 items-start flex-nowrap relative h-full w-full">
