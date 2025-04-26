@@ -12,7 +12,7 @@ function FeaturedCard() {
         {bagProducts.slice(0,8).map((product) => (
           <div
             key={product.id}
-            className="bg-white hover:shadow-md transition-shadow"
+            className="bg-white hover:shadow-md max-md:shadow-md max-md:hover:shadow-lg transition-shadow"
           >
             <div className="relative py-4 rounded-t-lg bg-gray-200">
               <img
