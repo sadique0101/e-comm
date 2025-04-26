@@ -7,24 +7,48 @@ import 'slick-carousel/slick/slick-theme.css';
 function SimilarProducts() {
     const settings = {
         dots: false,
-        infinite: true,
+        infinite: false,
         speed: 500,
-        slidesToShow: 4, 
+        slidesToShow: 4,
         slidesToScroll: 3,
         autoplaySpeed: 5000,
         autoplay: true,
         cssEase: "ease-out",
+        responsive: [
+          {
+            breakpoint: 1024, // For tablets
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 768, // For mobile landscape
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480, // For mobile portrait
+            settings: {
+              slidesToShow: 1.3,
+              slidesToScroll: 1,
+              align: "center",
+            },
+          },
+        ],
       };
   return (
-    <div className="p-6">
-      <h2 className="text-xl font-bold mb-4">Similar products</h2>
-      <div className=" overflow-hidden px-5 shadow-md w-full py-5">
+    <div className="p-6 border-t">
+      <h2 className="text-2xl font-bold mb-4">Similar products</h2>
+      <div className=" overflow-hidden px-3 md:px-5 w-full py-5">
         <Slider {...settings}>
         {bagProducts.map((product) => (
           <a
             href={product.url}
             key={product.url}
-            className="w-60 bg-white p-4 border-r rounded-lg flex-shrink-0"
+            className="w-60 bg-white p-4 border-r flex-shrink-0"
           >
             <img
               src={product.img}

@@ -64,9 +64,10 @@ const carouselOptions = {
       },
     },
     {
-      breakpoint: 0,
+      breakpoint: 480,
       settings: {
         slidesToShow: 1,
+        centerMode: true, // Disable center mode on smaller screens
       },
     },
   ],
@@ -74,24 +75,24 @@ const carouselOptions = {
 
 function Testimonials() {
   return (
-    <div className="relative w-full bg-red-50 py-12 sm:pb-24 mt-10 sm:pt-12">
+    <div className="relative w-full bg-[#F1EFEC] py-12 sm:pb-24 sm:pt-12">
       <div className="max-w-[1200px] mx-auto px-4">
-        <h4 className="text-[38px] leading-[60px] text-center font-medium text-[#000000]">
+        <h4 className=" text-[28px] md:text-[38px] leading-10 md:leading-[60px] text-center font-medium text-[#000000]">
           Client Testimonials
         </h4>
 
         {/* SlickCarousel Container */}
-        <div className="w-full relative ">
+        <div className="w-full overflow-hidden ">
         <Slider {...carouselOptions}>
             {Testimonys.map((testimonial, index) => (
               <div
                 key={index}
-                className="bg-transparent px-12  flex flex-col justify-between rounded-lg my-10 p-6 text-start h-[370px] sm:h-[170px] mx-2"
+                className="bg-transparent px-3 md:px-12  flex flex-col justify-between rounded-lg my-10 p-6 text-start h-[370px] sm:h-[170px] md:mx-2"
               >
-                <blockquote className="text-[17px] max-md:text-[15px] max-md:leading-[23px] font-light text-gray-700">
+                <blockquote className="text-[17px] min-w-full max-md:text-[15px] max-md:leading-[23px] font-light text-gray-700">
                   “{testimonial.testimony}”
                 </blockquote>
-                <div className="mt-6 w-full item-center flex gap-4">
+                <div className="mt-6 min-w-full w-full item-center flex gap-4">
                   <div className="w-16 h-16 rounded-full">
                     <img  src={Avtar} className="rounded-full w-16 h-16"/>
                   </div>

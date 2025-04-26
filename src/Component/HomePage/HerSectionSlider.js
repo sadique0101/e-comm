@@ -35,12 +35,12 @@ function HerSectionSlider() {
         <h4 className="text-pink-500 text-sm font-semibold uppercase mb-2">
            - {product.tagline}
           </h4>
-          <h2 className="text-2xl font-bold mb-4">{product.title}</h2>
-          <p className="text-gray-600 line-clamp-2 text-sm mb-4">
+          <h2 className="text-2xl font-bold md:mb-4">{product.title}</h2>
+          <p className="text-gray-600 line-clamp-2 text-sm mb-1 md:mb-4">
           {product.description}
           </p>
           <h3 className="text-xl font-bold text-black mb-4">{product.price}</h3>
-          <a href={product.url} className="bg-pink-500 flex items-center justify-center gap-3 w-max text-white px-4 py-2 rounded hover:bg-blue-600">
+          <a href={product.url} className="bg-blue-500 max-md:text-sm flex items-center justify-center gap-3 w-max text-white px-4 py-2 rounded hover:bg-blue-600">
             Shop Now
             <FaArrowRight className=' text-sm' />
           </a>

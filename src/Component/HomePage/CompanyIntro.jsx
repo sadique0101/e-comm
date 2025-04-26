@@ -7,7 +7,7 @@ function CompanyIntro() {
     <div className="flex max-w-[1200px] mx-auto max-md:pb-0 py-10 md:py-20 flex-col gap-14 md:flex-row items-center justify-between p-6 bg-white">
       {/* Left Section */}
       <div className="md:w-1/2 text-center md:text-left">
-        <h1 className="text-3xl md:text-5xl leading-[45px] md:leading-[80px] font-bold mb-4">
+        <h1 className="text-3xl md:text-5xl leading-[45px] md:leading-[60px] font-bold mb-4">
         Showcase, Style, <br className='max-md:hidden' />
           <span className="text-pink-600 my-2 leading-10">& Carry Confidence</span> <br />
           with our Bags.
@@ -27,7 +27,7 @@ function CompanyIntro() {
       </div>
 
       {/* Right Section */}
-      <div className="md:w-1/2 w-full overflow-hidden pb-48 flex justify-center items-center relative mt-8 md:mt-0">
+      <div className="md:w-1/2 w-full nax-md:overflow-hidden pb-48 flex justify-center items-center relative mt-8 md:mt-0">
         {/* Floating Tags */}
         <div className="absolute -top-10 left-0 bg-red-600 text-white text-xs px-3 py-1 rounded-full">
           @hallstein

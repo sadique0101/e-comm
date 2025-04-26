@@ -15,7 +15,7 @@ function ListingPage() {
 <div className='p-6'>
       {/* Breadcrumb */}
       <div className="text-sm text-gray-500 mb-4">
-        <span>Home</span> &gt; <span>Bags</span>
+        <span><a href="/">Home</a></span> &gt; <span>Bags</span>
       </div>
 
       {/* Results Count */}
@@ -38,7 +38,7 @@ function ListingPage() {
 
       <div className="flex gap-8">
         {/* Filter Section */}
-        <div className="w-1/4 bg-white p-4 h-screen sticky top-4 rounded-lg shadow-lg">
+        <div className="w-1/4 max-md:hidden bg-white p-4 h-screen sticky top-4 rounded-lg shadow-lg">
           <h3 className="text-lg font-bold mb-4">Filter</h3>
           <div className="mb-6">
             <h4 className="text-sm font-semibold mb-2">Brand</h4>
@@ -107,9 +107,9 @@ function ListingPage() {
               key={product.url}
               className="rounded flex flex-col items-start"
             >
-                <div className='bg-[#F6F0F0] p-4 py-2 pb-0 rounded-lg  w-full'>
+                <div className='bg-[#E8F9FF] p-4 py-2 pb-0 rounded-lg  w-full'>
               {!product.isNew && (
-                <span className="bg-pink-500 text-white text-xs px-2 py-1 rounded mb-2">
+                <span className="bg-[#0118D8] text-white text-[10px] px-2 py-1 rounded mb-2">
                   New Article
                 </span>
               )}
@@ -120,10 +120,12 @@ function ListingPage() {
               />
               </div>
               <div className='p-2'>
+                <div>
               <h3 className="text-sm font-bold">{product.brand}</h3>
               <p className="text-sm text-gray-500">{product.title}</p>
-              <p className="text-lg font-bold text-blue-500">{product.price}</p>
+              <p className=" font-bold text-sm text-[#0118D8]">{product.price}</p>
               <p className="text-xs text-red-500">{product.count}</p>
+              </div>
             </div>
             </a>
           ))}

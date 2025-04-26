@@ -100,7 +100,7 @@ function Checkout() {
               Back
             </button>
             <button className="bg-[#261FB3] text-white px-6 py-3 rounded-lg hover:bg-green-600">
-              Confirm Payment: $304.98
+              Confirm Payment: {product.price}
             </button>
           </div>
         </div>
