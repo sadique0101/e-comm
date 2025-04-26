@@ -26,11 +26,11 @@ const Header = () => {
                 </div>
 
                 {/* Icons for Signup and Cart */}
-                <div className="flex items-center space-x-6">
-                    <a href="/signup" className="text-gray-800 hover:text-pink-500 transition duration-300">
+                <div className="flex items-center space-x-6 max-md:hidden">
+                    <a href="/#" className="text-gray-800 hover:text-pink-500 transition duration-300">
                         <AiOutlineUser size={24} />
                     </a>
-                    <a href="/cart" className="text-gray-800 hover:text-pink-500 transition duration-300">
+                    <a href="/#" className="text-gray-800 hover:text-pink-500 transition duration-300">
                         <FiShoppingCart size={24} />
                     </a>
                 </div>

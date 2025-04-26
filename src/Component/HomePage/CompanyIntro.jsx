@@ -9,7 +9,7 @@ function CompanyIntro() {
       <div className="md:w-1/2 text-center md:text-left">
         <h1 className="text-3xl md:text-5xl leading-[45px] md:leading-[80px] font-bold mb-4">
         Showcase, Style, <br className='max-md:hidden' />
-          <span className="text-red-600 my-2 leading-10">& Carry Confidence</span> <br />
+          <span className="text-pink-600 my-2 leading-10">& Carry Confidence</span> <br />
           with our Bags.
         </h1>
         <p className="text-gray-600 text-sm md:text-base mb-6">

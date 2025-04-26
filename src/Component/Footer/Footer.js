@@ -14,13 +14,13 @@ function Footer() {
             <label className="block font-bold text-lg mb-2">
               Sign Up For Email Offers & Updates
             </label>
-            <div className="flex">
+            <div className="flex max-md:flex-col gap-4">
               <input
                 type="text"
                 placeholder="Enter Email"
                 className="flex-grow p-2 text-black rounded-l-md"
               />
-              <button className="bg-gray-500 hover:bg-black text-white font-bold px-4 py-2 rounded-r-md">
+              <button className="bg-pink-500 hover:bg-black text-white font-bold px-4 py-2 rounded-r-md">
                 SUBMIT
               </button>
             </div>
