@@ -15,12 +15,12 @@ function ListingPage() {
 <div className='p-6'>
       {/* Breadcrumb */}
       <div className="text-sm text-gray-500 mb-4">
-        <span>Home</span> &gt; <span>Clothes</span>
+        <span>Home</span> &gt; <span>Bags</span>
       </div>
 
       {/* Results Count */}
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-lg font-bold">{bagProducts.length} result for clothes</h2>
+        <h2 className="text-lg font-bold">{bagProducts.length} result for Bags</h2>
         <div className="flex items-center gap-4">
           <button className="p-2 border rounded-lg hover:bg-gray-100">
             <i className="fas fa-th"></i>
@@ -109,7 +109,7 @@ function ListingPage() {
             >
                 <div className='bg-[#F6F0F0] p-4 py-2 pb-0 rounded-lg  w-full'>
               {!product.isNew && (
-                <span className="bg-blue-500 text-white text-xs px-2 py-1 rounded mb-2">
+                <span className="bg-pink-500 text-white text-xs px-2 py-1 rounded mb-2">
                   New Article
                 </span>
               )}

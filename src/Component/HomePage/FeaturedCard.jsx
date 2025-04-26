@@ -55,8 +55,8 @@ function FeaturedCard() {
                   {product.originalPrice}
                 </div>
               </div>
-              <a href={product.url} className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-[#A86523]">
-                Add to Cart
+              <a href={product.url} className="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-[#A86523]">
+                Shop Now
               </a>
             </div>
           </div>
