@@ -1,21 +1,27 @@
 import React from 'react'
 import Herosection from './Herosection'
-import OfferSection from './OfferSection'
-import Trending from './Trending'
+// import OfferSection from './OfferSection'
+// import Trending from './Trending'
 import Latest from './Latest'
 import NewArrival from './NewArrival'
 import CompanyDescription from './CompanyDescription'
 import TopSeller from './TopSeller'
+import FeaturedCard from './FeaturedCard'
+import CompanyIntro from './CompanyIntro'
+import NewStock from './NewStock'
 const HomePage = () => {
   return (
     <div>
       <Herosection />
       {/* <OfferSection /> */}
       <TopSeller />
-      <Trending />
-      <Latest />
-      <CompanyDescription />
-      <NewArrival />
+      {/* <Trending /> */}
+      <FeaturedCard />
+      <CompanyIntro />
+      {/* <Latest /> */}
+      {/* <CompanyDescription /> */}
+      {/* <NewArrival /> */}
+      <NewStock />
     </div>
   )
 }

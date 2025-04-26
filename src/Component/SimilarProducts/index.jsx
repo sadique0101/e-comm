@@ -9,22 +9,22 @@ function SimilarProducts() {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 5, 
+        slidesToShow: 4, 
         slidesToScroll: 3,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 5000,
         autoplay: true,
         cssEase: "ease-out",
       };
   return (
     <div className="p-6">
       <h2 className="text-xl font-bold mb-4">Similar products</h2>
-      <div className=" overflow-hidden w-full py-5">
+      <div className=" overflow-hidden px-5 shadow-md w-full py-5">
         <Slider {...settings}>
         {bagProducts.map((product) => (
           <a
             href={product.url}
             key={product.url}
-            className="w-60 bg-white p-4 rounded-lg shadow-lg flex-shrink-0"
+            className="w-60 bg-white p-4 border-r rounded-lg flex-shrink-0"
           >
             <img
               src={product.img}

@@ -21,7 +21,7 @@ function HerSectionSlider() {
       };
     
   return (
-    <div className="flex flex-col md:flex-row max-h-[400px] gap-6 p-6">
+    <div className="flex max-w-[1200px] mx-auto flex-col md:flex-row max-h-[400px] gap-6 p-6">
       {/* iPhone 13 Pro Section */}
       <div className='w-[65%] rounded-lg bg-white shadow-lg overflow-hidden'>
       <div className='w-full h-full overflow-hidden'>
@@ -36,7 +36,7 @@ function HerSectionSlider() {
            - {product.tagline}
           </h4>
           <h2 className="text-2xl font-bold mb-4">{product.title}</h2>
-          <p className="text-gray-600 text-sm mb-4">
+          <p className="text-gray-600 line-clamp-2 text-sm mb-4">
           {product.description}
           </p>
           <h3 className="text-xl font-bold text-black mb-4">{product.price}</h3>

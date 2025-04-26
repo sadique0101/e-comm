@@ -107,7 +107,7 @@ function ListingPage() {
               key={product.url}
               className="rounded flex flex-col items-start"
             >
-                <div className='bg-gray-300 p-4 py-2 pb-0 rounded-lg  w-full'>
+                <div className='bg-[#F6F0F0] p-4 py-2 pb-0 rounded-lg  w-full'>
               {!product.isNew && (
                 <span className="bg-blue-500 text-white text-xs px-2 py-1 rounded mb-2">
                   New Article
