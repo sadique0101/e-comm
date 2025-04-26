@@ -89,7 +89,7 @@ const settings = {
       {/* Header Section */}
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-xl font-bold max-md:text-lg"> Our Custom Bag Collection</h2>
-        <a href="/all" className=" text-sm   flex items-center gap-1">
+        <a href="/all" className=" text-sm  ml-5 flex items-center gap-1">
           View_All <FaAngleRight className='text-[#261FB3]' />
         </a>
       </div>
