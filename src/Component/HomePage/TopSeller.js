@@ -79,7 +79,7 @@ const settings = {
             {
               breakpoint: 480, // For mobile devices in portrait mode
               settings: {
-                 slidesToShow: 1.15,
+                 slidesToShow: 1.2,
               },
             },
          ],

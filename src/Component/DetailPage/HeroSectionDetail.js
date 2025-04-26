@@ -21,7 +21,7 @@ function HeroSectionDetail() {
             {/* Left Section: Product Images */}
             <div className="flex flex-col gap-3 w-full md:w-1/2">
                 {/* Main Product Image */}
-                <div className="h-[400px] rounded-lg p-4 bg-red-100 flex items-center justify-center mb-4">
+                <div className="h-[400px] rounded-lg p-4 bg-[#F1EFEC] flex items-center justify-center mb-4">
                     <img
                         src={image} // Replace with actual product image URL
                         alt="Product"
@@ -32,7 +32,7 @@ function HeroSectionDetail() {
 
                 {/* Thumbnail Images */}
                 <div className="flex flex-wrap gap-2 p-2 rounded-lg">
-                    <div className="flex flex-col bg-red-100 items-center">
+                    <div className="flex flex-col items-center">
                         <img
                             onClick={() => setImage(product.img2)}
                             src={product.img2} // Replace with actual thumbnail image URL
@@ -41,7 +41,7 @@ function HeroSectionDetail() {
                             style={{ mixBlendMode: 'multiply' }}
                         />
                     </div>
-                    <div className="flex flex-col bg-red-100 items-center">
+                    <div className="flex flex-col items-center">
                         <img
                             onClick={() => setImage(product.img3)}
                             src={product.img3} // Replace with actual thumbnail image URL
@@ -50,7 +50,7 @@ function HeroSectionDetail() {
                             style={{ mixBlendMode: 'multiply' }}
                         />
                     </div>
-                    <div className="flex flex-col bg-red-100 items-center">
+                    <div className="flex flex-col  items-center">
                         <img
                             onClick={() => setImage(product.img4)}
                             src={product.img4} // Replace with actual thumbnail image URL
@@ -59,7 +59,7 @@ function HeroSectionDetail() {
                             style={{ mixBlendMode: 'multiply' }}
                         />
                     </div>
-                    <div className="flex flex-col bg-red-100 items-center">
+                    <div className="flex flex-col items-center">
                         <img
                             onClick={() => setImage(product.img5)}
                             src={product.img5} // Replace with actual thumbnail image URL
