@@ -31,9 +31,9 @@ function HotOffer() {
       </div>
 
       {/* Shop Now Button */}
-      <button className="bg-blue-500 text-sm text-white px-4 py-2 rounded hover:bg-blue-600 mb-4">
+      <a href='/15' className="bg-blue-500 text-sm text-white px-4 py-2 rounded hover:bg-blue-600 mb-4">
         Shop Now
-      </button>
+      </a>
       </div>
       {/* Discount */}
       <p className="text-orange-500 m-0 mt-14 text-lg font-bold">30% OFF</p>
