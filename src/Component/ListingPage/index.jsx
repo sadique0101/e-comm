@@ -20,7 +20,7 @@ function ListingPage() {
 
       {/* Results Count */}
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-lg font-bold">{bagProducts.length} result for clothes</h2>
+        <h2 className="text-lg font-bold">{bagProducts.length} result for Bags</h2>
         <div className="flex items-center gap-4">
           <button className="p-2 border rounded-lg hover:bg-gray-100">
             <i className="fas fa-th"></i>

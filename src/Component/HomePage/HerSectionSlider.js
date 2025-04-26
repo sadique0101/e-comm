@@ -32,7 +32,7 @@ function HerSectionSlider() {
         <div className="flex flex-col md:flex-row px-1 md:px-5 py-0 max-md:pb-10 md:py-10 items-start flex-nowrap relative h-full w-full">
       
         <div className="p-6 flex-1 flex flex-col justify-center">
-        <h4 className="text-blue-500 text-sm font-semibold uppercase mb-2">
+        <h4 className="text-pink-500 text-sm font-semibold uppercase mb-2">
            - {product.tagline}
           </h4>
           <h2 className="text-2xl font-bold md:mb-4">{product.title}</h2>

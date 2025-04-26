@@ -115,7 +115,7 @@ function HeroSectionDetail() {
                 {/* Add to Cart Button */}
                 <div className="flex items-center gap-4">
                     <a href={`${url.pathname}/checkout`} className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800">
-                        Add to cart
+                        Buy Now
                     </a>
                     <button className="border rounded-lg text-xl px-6 py-3 hover:bg-gray-100">
                         <IoHeart />
