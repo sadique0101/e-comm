@@ -9,7 +9,7 @@ function SimilarProducts() {
         dots: false,
         infinite: true,
         speed: 500,
-        slidesToShow: 5, // Adjust this value to show how many cards you want at once
+        slidesToShow: 5, 
         slidesToScroll: 3,
         autoplaySpeed: 3000,
         autoplay: true,
@@ -18,7 +18,7 @@ function SimilarProducts() {
   return (
     <div className="p-6">
       <h2 className="text-xl font-bold mb-4">Similar products</h2>
-      <div className=" overflow-hidden w-full">
+      <div className=" overflow-hidden w-full py-5">
         <Slider {...settings}>
         {bagProducts.map((product) => (
           <a
