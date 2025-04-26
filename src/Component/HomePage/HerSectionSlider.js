@@ -21,7 +21,7 @@ function HerSectionSlider() {
       };
     
   return (
-    <div className="flex flex-col md:flex-row max-h-[400px] gap-6 p-6">
+    <div className="flex max-w-[1200px] mx-auto flex-col md:flex-row max-h-[400px] gap-6 p-6">
       {/* iPhone 13 Pro Section */}
       <div className='w-[65%] rounded-lg bg-white shadow-lg overflow-hidden'>
       <div className='w-full h-full overflow-hidden'>

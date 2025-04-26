@@ -65,7 +65,7 @@ const customBagBrands = [
           cssEase: "ease-out",
         };
   return (
-    <div className="p-10">
+    <div className="py-10 px-4 max-w-[1200px] mx-auto">
       {/* Header Section */}
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-xl font-bold"> Our Custom Bag Collection</h2>
