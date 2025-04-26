@@ -36,7 +36,7 @@ function HerSectionSlider() {
            - {product.tagline}
           </h4>
           <h2 className="text-2xl font-bold mb-4">{product.title}</h2>
-          <p className="text-gray-600 text-sm mb-4">
+          <p className="text-gray-600 line-clamp-2 text-sm mb-4">
           {product.description}
           </p>
           <h3 className="text-xl font-bold text-black mb-4">{product.price}</h3>
