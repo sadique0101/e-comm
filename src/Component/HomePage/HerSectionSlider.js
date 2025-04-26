@@ -21,15 +21,15 @@ function HerSectionSlider() {
       };
     
   return (
-    <div className="flex max-w-[1200px] mx-auto flex-col md:flex-row max-h-[400px] gap-6 p-6">
+    <div className="flex max-w-[1200px] mx-auto flex-col md:flex-row md:max-h-[400px] gap-6 p-2 max-md:px-2 md:p-6">
       {/* iPhone 13 Pro Section */}
-      <div className='w-[65%] rounded-lg bg-white shadow-lg overflow-hidden'>
+      <div className='md:w-[65%] w-full rounded-lg bg-white shadow-lg overflow-hidden'>
       <div className='w-full h-full overflow-hidden'>
       <Slider {...settings}>
         {bagProducts.slice(0,5).map((product, index) =>{
             return (  
                 <div className='h-full w-full' key={index}>
-        <div className="flex flex-row px-5 py-10 items-start flex-nowrap relative h-full w-full">
+        <div className="flex flex-col md:flex-row px-1 md:px-5 py-0 max-md:pb-10 md:py-10 items-start flex-nowrap relative h-full w-full">
       
         <div className="p-6 flex-1 flex flex-col justify-center">
         <h4 className="text-blue-500 text-sm font-semibold uppercase mb-2">
@@ -46,11 +46,11 @@ function HerSectionSlider() {
           </a>
         </div>
         
-        <div className="flex items-start w-[45%]  justify-start">
+        <div className="flex items-start md:w-[45%]  justify-start">
           <img
             src={product.img}
             alt="iPhone 13 Pro"
-            className="w-[320px] object-contain"
+            className="w-[320px] max-md:max-h-[150px]  object-contain"
           />
         </div>
       </div>

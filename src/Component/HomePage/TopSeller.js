@@ -56,14 +56,34 @@ const customBagBrands = [
         textColor: "text-yellow-800",
     }
   ];
-   const settings = {
-          dots: false,
-          infinite: false,
-          speed: 600,
-          slidesToShow: 4, // Adjust this value to show how many cards you want at once
-          slidesToScroll: 1,
-          cssEase: "ease-out",
-        };
+const settings = {
+         dots: false,
+         infinite: false,
+         speed: 600,
+         slidesToShow: 4, // Default for larger screens
+         slidesToScroll: 1,
+         cssEase: "ease-out",
+         responsive: [
+            {
+              breakpoint: 1024, // For tablets and smaller desktops
+              settings: {
+                 slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 768, // For mobile devices in landscape mode
+              settings: {
+                 slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 480, // For mobile devices in portrait mode
+              settings: {
+                 slidesToShow: 1.15,
+              },
+            },
+         ],
+      };
   return (
     <div className="py-10 px-4 max-w-[1200px] mx-auto">
       {/* Header Section */}

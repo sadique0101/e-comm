@@ -3,7 +3,7 @@ import React from 'react';
 import {bagProducts} from '../Data/index.js'
 function NewStock() {
   return (
-    <div className="p-6 py-20 max-w-[1200px] mx-auto">
+    <div className="p-6 py-10 md:py-20 max-w-[1200px] mx-auto">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-2xl font-bold">New Arrivals</h2>
         <a href='/all' className="text-blue-600 font-semibold hover:underline">See all</a>

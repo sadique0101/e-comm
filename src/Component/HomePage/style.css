@@ -5,3 +5,14 @@ left: -280px;
 .slick-dots li.slick-active button:before{
     color: #261FB3;
 }
+.slick-prev{
+    display: none !important;
+}
+.slick-next{
+    display: none !important;
+}
+@media (max-width:428px) {
+    .slick-dots{
+        bottom: 10px !important;
+    }
+}
